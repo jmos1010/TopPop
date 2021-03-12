@@ -54,6 +54,11 @@ class TopListController: UIViewController {
         sheet.addAction(sortDescAction)
         sheet.addAction(normalAction)
         sheet.addAction(cancelAction)
+        
+        if let sheet = sheet.popoverPresentationController {
+            sheet.sourceView = self.view
+            sheet.sourceRect = CGRect(x: self.view.frame.size.width - 100, y: 50, width: 0, height: 0)
+        }
         present(sheet, animated: true)
     }
     
