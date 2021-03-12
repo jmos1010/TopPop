@@ -1,7 +1,7 @@
 # TopPop
 ### Description
-Top Pop is simple app which connects to Deezer API and presents you top 10 tracks on chart with some fancy colors.\ 
-If you want, you can also sort tracks ascending or descending by their duration.\ 
+Top Pop is simple app which connects to Deezer API and presents you top 10 tracks on the Chart with some fancy colors.  
+If you want, you can also sort tracks ascending or descending by their duration.  
 And don't worry, you can always sort them back and check who's rocking on the Chart! ;)
 
 ### Screenshots
