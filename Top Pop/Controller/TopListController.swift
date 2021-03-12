@@ -38,7 +38,7 @@ class TopListController: UIViewController {
     
     // MARK: - Selectors
     
-    @objc func handleSortTapped() {
+    @objc private func handleSortTapped() {
         let sheet = UIAlertController(title: nil, message: nil, preferredStyle: .actionSheet)
         let normalAction = UIAlertAction(title: ApplicationStrings.sortOriginal, style: .default) { _ in
             self.tracks.sort(by: { $0.position < $1.position } )
@@ -62,7 +62,7 @@ class TopListController: UIViewController {
         present(sheet, animated: true)
     }
     
-    @objc func handleRefresh() {
+    @objc private func handleRefresh() {
         getChart()
     }
     

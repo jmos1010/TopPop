@@ -37,7 +37,7 @@ class TrackCell: UITableViewCell {
     
     // MARK: - Helpers
     
-    func setUpView() {
+    private func setUpView() {
         backgroundColor = .clear
         backgroundView = blurredBackgroundView
         
